@@ -1,0 +1,108 @@
+.gpt3__cta-container{
+    background: linear-gradient(90deg, rgba(255,83,220,1) 0%, rgba(247,186,87,1) 100%);
+    width: 80%;;
+    padding: 2.5rem 0 2.5rem 0;
+    border-radius: 80px;
+    
+}
+.gpt3__cta{
+    display: flex;
+    justify-content: center;
+}
+.gpt3__cta-container p{
+    font-family: var(--font-family);
+    
+    padding-left: 4rem;
+}
+
+.gpt3__cta-container-pI{
+    font-size: 12px;
+    margin-bottom: -0.25rem;
+    font-weight: 500;
+    
+
+}
+
+.gpt3__cta-container-pI-alt{
+    display: none;
+    font-size: 12px;
+    margin-bottom: -0.25rem;
+    font-weight: 500;
+}
+.gpt3__cta-container-midtext{
+display: flex;   
+justify-content: space-between; 
+align-items: center;
+}
+
+.gpt3__cta_container-midtext-pII{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gpt3__cta-container-midtext-button{
+    color:white;
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    border-style: none;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.gpt3__cta-container-midtext-pII-alt{
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__cta_container-midtext-pII{
+        font-size: 14px;
+    }
+
+    .gpt3__cta-container-pI{
+        font-size: 10px;
+    }
+    .gpt3__cta-container-midtext-button{
+        margin-right: 1rem;
+        padding: 0.5rem 1.25rem;
+    }
+    .gpt3__cta-container{
+        padding: 1rem 0 1rem 0;
+    }
+    .gpt3__cta-container p{
+        padding-left: 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .gpt3__cta_container-midtext-pII{
+        font-size: 14px;
+        display: none;
+    }
+    .gpt3__cta-container-pI-alt{
+        display: flex;
+        font-size: 10px;
+        margin-bottom: -0.75rem;
+    }
+    .gpt3__cta-container-midtext-pII-alt{
+        display: flex;
+        font-size: 12px;
+    }
+
+    .gpt3__cta-container-pI{
+        display: none;
+    }
+    .gpt3__cta-container-midtext-button{
+        margin-right: 1rem;
+        padding: 0.5rem 1.25rem;
+    }
+    .gpt3__cta-container-midtext{
+        margin-top: 0.25rem;
+    }
+    .gpt3__cta-container{
+        padding: 1rem 0 1rem 0;
+        width: 90%;
+    }
+    .gpt3__cta-container p{
+        padding-left: 1rem;
+    }
+}

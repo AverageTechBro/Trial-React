@@ -127,7 +127,7 @@
         justify-content: center;
     }
     .gpt3__whatgpt3-heading p{
-        margin-left: -25rem;
+        margin-left: rem;
         margin-top: 2rem;
     }
 }

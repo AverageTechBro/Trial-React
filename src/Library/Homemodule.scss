@@ -1,0 +1,114 @@
+
+.gpt3__swiperslide{
+    padding: 10rem 0;
+    display: flex;
+  
+    
+
+    .profile-pic{
+        width: 300px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .quote{
+        width: 70px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-bottom: rem;
+        
+    }
+    p{
+        
+        text-align: center;
+        font-family: var(--font-family);
+        color: white;
+        padding-bottom: 1rem;
+        
+    }
+
+    .header{
+        color: white;
+        text-align: center;
+        font-family: var(--font-family);
+        max-width: 400px;
+        text-align: center;
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 26px;
+        letter-spacing: 1px;
+    }
+
+    .gpt3__swiperslide-first{
+        img:first-child{
+            width: 400px;
+            border-radius: 50%;
+        }
+          background:radial-gradient(circle at 3% 25%, rgba(138, 136, 1, 0.765) 0%, rgba(2, 99, 70, 0.36) 100%);
+       
+    }
+    .gpt3__swiperslide-second{
+        img{
+            width: 200px;
+        }
+        .quote{
+            width: 70px;
+            margin-bottom: 2rem
+        }
+        background:radial-gradient(circle at 3% 25%, rgba(5, 75, 151, 0.836) 0%, rgba(53, 1, 1, 0.826) 100%);
+    }
+
+
+    .gpt3__swiperslide-third{
+
+        img{
+            width: 200px;
+            height: 200px;
+         
+        }
+        .quote{
+            width: 70px;
+            height: 50px;
+            margin-bottom:2rem
+        }
+        background:radial-gradient(circle at 3% 25%, rgb(114, 0, 109) 0%, rgb(4, 61, 146) 100%);
+        
+    }
+
+    .gpt3__swiperslide-fourth{
+        img{
+            width: 200px;
+            height: 220px;
+            padding-top: 10px;
+        }
+        .quote{
+            width: 70px;
+            height: 50px;
+            margin-bottom: 1.5rem;
+        }
+          background:radial-gradient(circle at 3% 25%, rgb(65, 26, 0) 0%, rgb(0, 45, 50) 100%);
+    }
+}
+
+.testimonial-container{
+    h1{
+        background:var(--gradient-text);
+        background-clip: text;
+        -webkit-background-clop:text;
+        -webkit-text-fill-color: transparent;
+        font-family: var(--font-family);
+        text-align: center;
+        margin-bottom: -2rem;
+        margin-top: 2rem;
+        font-size: 50px;
+
+    }
+}
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+}

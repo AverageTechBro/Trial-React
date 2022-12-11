@@ -9,6 +9,7 @@ import {
   WhatGPT3,
 } from "./containers";
 import { Article, Brand, CTA, Feature, Navbar } from "./components";
+import Swiperjs from "./tools/Swiperjs";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Possibility />
       <CTA />
       <Blog />
+      <Swiperjs />
       <Footer />
     </div>
   );

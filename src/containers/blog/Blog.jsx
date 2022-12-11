@@ -75,13 +75,13 @@ const Blog = () => {
           <Article
             picture={imag3}
             date="Sep 25, 2001"
-            header="."
+            header="Recent increase in Oil prices due to tensions in mid east"
             message="Read Full Article"
           />
           <Article
             picture={imag4}
             date="Sep 30, 2001"
-            header="Bin Laden to release a diss track on Obama."
+            header="The diplomatic agents are working on solving this issue."
             message="Read Full Article"
           />
         </div>
